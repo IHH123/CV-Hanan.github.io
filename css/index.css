@@ -1,0 +1,55 @@
+
+@font-face {
+
+	font-family: "calibri";
+	src: url('calibri.ttf');
+}
+
+@font-face {
+
+	font-family: "trebuc";
+	src: url('trebuc.ttf');
+}
+
+.headline .headline-name {
+
+	font-family: "calibri";
+	font-size: 55px;
+	font-weight: bold;
+	letter-spacing: 0.03em;
+	word-spacing: 0.05em;
+}
+
+.headline .headline-job-experience {
+
+	font-family: "trebuc";
+	bottom: 15px;
+	font-weight: bold;
+	font-size: 17px;
+	left: 1px;
+}
+
+.headline .headline-contact-us-1 {
+
+	font-family: "trebuc";
+	color: lightgray;
+	left: 1px;
+}
+
+.headline .headline-contact-us-2 {
+
+	font-family: "trebuc";
+	color: lightgray;
+	left: 1px;
+}
+
+.headline-contact-us-1 .fa-phone, .headline-contact-us-1 .fa-envelope {
+
+	top: 5.5px;
+}
+
+.headline-contact-us-2 .fa-map-marker-alt {
+
+	top: 2px;
+	left: 1px;
+}
