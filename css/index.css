@@ -28,7 +28,7 @@
 	font-weight: bold;
 	font-size: 17px;
 	left: 1px;
-	color: black;
+/*	color: black;*/
 }
 
 .headline .headline-contact-us-1 {
@@ -56,12 +56,27 @@
 	left: 1px;
 }
 
-@media only screen and (min-width: 576px) and (max-width: 768px) {
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
 
 	.headline .headline-name {
 
-		font-size: 5px;
-		color: blue;
+		font-size: 45px;
+	}		
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+	.headline .headline-name {
+
+		font-size: 30px;
+	}		
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+
+	.headline .headline-name {
+
+		font-size: 30px;
 	}		
 }
 
@@ -69,6 +84,6 @@
 
 	.headline .headline-name {
 
-		font-size: 12px;
+		font-size: 15px;
 	}		
 }
