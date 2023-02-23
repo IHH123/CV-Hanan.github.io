@@ -18,6 +18,7 @@
 	font-weight: bold;
 	letter-spacing: 0.03em;
 	word-spacing: 0.05em;
+/*	color: black;*/
 }
 
 .headline .headline-job-experience {
@@ -52,4 +53,12 @@
 
 	top: 2px;
 	left: 1px;
+}
+
+@media only screen and (max-width: 576px) {
+
+/*	.headline .headline-name {
+
+		font-size: 20px;
+	}		*/
 }
