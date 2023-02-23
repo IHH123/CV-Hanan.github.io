@@ -18,7 +18,6 @@
 	font-weight: bold;
 	letter-spacing: 0.03em;
 	word-spacing: 0.05em;
-/*	color: black;*/
 }
 
 .headline .headline-job-experience {
@@ -61,14 +60,13 @@
 	.headline .headline-name {
 
 		font-size: 45px;
-	}		
-}
+	}
 
-@media only screen and (min-width: 768px) and (max-width: 991px) {
+	.headline .headline-job-experience {
 
-	.headline .headline-name {
-
-		font-size: 30px;
+		font-size: 13px;
+		bottom: 13px;
+		left: 1px;
 	}		
 }
 
@@ -78,6 +76,13 @@
 
 		font-size: 30px;
 	}		
+
+	.headline .headline-job-experience {
+
+		font-size: 9px;
+		bottom: 6px;
+		left: 1px;
+	}	
 }
 
 @media only screen and (max-width: 575px) {
@@ -86,4 +91,11 @@
 
 		font-size: 12px;
 	}		
+
+	.headline .headline-job-experience {
+
+		font-size: 3.5px;
+		bottom: 2.5px;
+		left: 0px;
+	}
 }
