@@ -27,7 +27,7 @@
 	font-weight: bold;
 	font-size: 17px;
 	left: 1px;
-	color: black;
+/*	color: black;*/
 }
 
 .headline .headline-contact-us-1 {
@@ -82,7 +82,7 @@
 		font-size: 9px;
 		bottom: 7px;
 		left: 1px;
-		color: red;
+/*		color: red;*/
 	}	
 }
 
@@ -90,14 +90,14 @@
 
 	.headline .headline-name {
 
-		font-size: 10px;
+		font-size: 7px;
 	}		
 
 	.headline .headline-job-experience {
 
-		font-size: 2.5px;
+		font-size: 1.5px;
 		bottom: 3.5px;
 		left: 0.5px;
-		color: blue;
+/*		color: blue;*/
 	}
 }
