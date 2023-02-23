@@ -55,7 +55,7 @@
 	left: 1px;
 }
 
-@media only screen and (min-width: 575px) and (max-width: 768px) {
+@media only screen and (min-width: 574px) and (max-width: 768px) {
 
 	.headline .headline-name {
 
@@ -63,7 +63,7 @@
 	}		
 }
 
-@media only screen and (max-width: 575px) {
+@media only screen and (max-width: 573px) {
 
 	.headline .headline-name {
 
