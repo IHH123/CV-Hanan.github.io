@@ -127,7 +127,7 @@
 	.contact-us-mail, .contact-us-address, .contact-us-phone {
 
 /*		position: relative;*/
-		height: 8px;
+		height: 10px;
 	}
 
 	.contact-us-mail .fa-envelope, .contact-us-mail [href^="mailto:"] {
