@@ -55,11 +55,6 @@
 	font-size: 12px;
 }
 
-.headline-contact-us-1 .fa-envelope {
-
-/*	top: 6.5px;*/
-}
-
 .headline-contact-us-1 .fa-phone {
 
 	bottom: 1px;
@@ -69,6 +64,16 @@
 
 	top: 2px;
 	left: 1px;
+}
+
+.contact-us-mail, .contact-us-address, .contact-us-phone {
+
+	position: relative;
+}
+
+.headline-contact-us-1 .fa-envelope {
+
+/*	top: 6.5px;*/
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
@@ -115,6 +120,11 @@
 		bottom: 4px;
 		left: 0.5px;
 /*		color: blue;*/
+	}
+
+	.contact-us-mail, .contact-us-address, .contact-us-phone {
+
+		position: absolute;
 	}
 
 	[href^="mailto"], [href^="https://api.whatsapp.com"] {
