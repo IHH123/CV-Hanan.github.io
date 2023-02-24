@@ -27,7 +27,6 @@
 	font-weight: bold;
 	font-size: 17px;
 	left: 1px;
-/*	color: black;*/
 }
 
 .headline .headline-contact-us-1 {
@@ -50,9 +49,14 @@
 	font-size: 16px;
 }
 
-.headline-contact-us-1 .fa-phone, .headline-contact-us-1 .fa-envelope {
+.contact-us-phone .fa-phone, .contact-us-mail .fa-envelope {
 
 	font-size: 12px;
+}
+
+.contact-us-address .fa-map-marker-alt, .contact-us-phone .fa-phone, .contact-us-mail .fa-envelope {
+
+	bottom: 0px;
 }
 
 .headline-contact-us-1 .fa-phone {
@@ -103,7 +107,6 @@
 		font-size: 9px;
 		bottom: 10px;
 		left: 1px;
-/*		color: red;*/
 	}	
 }
 
@@ -119,26 +122,24 @@
 		font-size: 4px;
 		bottom: 4px;
 		left: 0.5px;
-/*		color: blue;*/
 	}
 
 	.contact-us-mail, .contact-us-address, .contact-us-phone {
 
 		position: absolute;
-		bottom: 0.4px;
 	}
 
-	[href^="mailto"], [href^="https://api.whatsapp.com"] {
+	.contact-us-address .fa-map-marker-alt, .contact-us-phone .fa-phone, .contact-us-mail .fa-envelope {
 
-		font-size: 7px;
+		bottom: 2px;
 	}
 
-	.headline-contact-us-1 .fa-phone {
+	.contact-us-phone .fa-phone {
 
 		font-size: 3px;
 	}
 
-	.headline-contact-us-1 .fa-envelope {
+	.contact-us-mail .fa-envelope {
 
 		font-size: 4.5px;
 	}
@@ -146,6 +147,6 @@
 	.contact-us-address .fa-map-marker-alt {
 
 		font-size: 3px;
-		bottom: 1px;
+/*		bottom: 1px;*/
 	}
 }
