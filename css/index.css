@@ -125,7 +125,7 @@
 	.contact-us-mail, .contact-us-address, .contact-us-phone {
 
 		position: absolute;
-		bottom: 5px;
+		bottom: 2px;
 	}
 
 	[href^="mailto"], [href^="https://api.whatsapp.com"] {
