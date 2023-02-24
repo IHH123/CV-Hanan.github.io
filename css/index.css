@@ -129,12 +129,12 @@
 		position: absolute;
 	}
 
-	.contact-us-mail .fa-envelope {
+	.contact-us-mail .fa-envelope, .contact-us-mail [href^="mailto:"] {
 
 		bottom: 11px;
 	}
 
-	.contact-us-phone .fa-phone {
+	.contact-us-phone .fa-phone, .contact-us-phone [href^="https://api.whatsapp.com"] {
 
 		bottom: 11.5px;
 	}
