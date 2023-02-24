@@ -129,24 +129,24 @@
 		position: absolute;
 	}
 
-	.contact-us-address .fa-map-marker-alt, .contact-us-phone .fa-phone, .contact-us-mail .fa-envelope {
+	.contact-us-phone .fa-phone, .contact-us-mail .fa-envelope {
 
-		bottom: 10px;
+		bottom: 12px;
 	}
 
 	.contact-us-phone .fa-phone {
 
-		font-size: 3px;
+		font-size: 4px;
 	}
 
 	.contact-us-mail .fa-envelope {
 
-		font-size: 4.5px;
+		font-size: 5.5px;
 	}
 
 	.contact-us-address .fa-map-marker-alt {
 
-		font-size: 3px;
-/*		bottom: 1px;*/
+		font-size: 4px;
+		bottom: 13px;
 	}
 }
