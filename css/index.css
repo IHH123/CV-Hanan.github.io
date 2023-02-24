@@ -35,7 +35,7 @@
 	font-family: "trebuc";
 	color: lightgray;
 	left: 1px;
-/*	font-size: 16px;*/
+	font-size: 16px;
 }
 
 .headline .headline-contact-us-2 {
@@ -45,7 +45,7 @@
 	left: 1px;
 }
 
-[href^="mailto"], [href^="https://"] {
+[href^="mailto"], [href^="https://api.whatsapp.com"] {
 
 	font-size: 16px;
 }
@@ -57,12 +57,12 @@
 
 .headline-contact-us-1 .fa-envelope {
 
-	top: 6.5px;
+/*	top: 6.5px;*/
 }
 
 .headline-contact-us-1 .fa-phone {
 
-	top: 5.5px;
+	bottom: 1px;
 }
 
 .headline-contact-us-2 .fa-map-marker-alt {
@@ -117,8 +117,24 @@
 /*		color: blue;*/
 	}
 
-	.headline-contact-us-1 .fa-phone, .headline-contact-us-1 .fa-envelope {
+	[href^="mailto"], [href^="https://api.whatsapp.com"] {
 
+		font-size: 7px;
+	}
 
+	.headline-contact-us-1 .fa-phone {
+
+		font-size: 7px;
+	}
+
+	.headline-contact-us-1 .fa-envelope {
+
+		font-size: 8.5px;
+	}
+
+	.contact-us-address .fa-map-marker-alt {
+
+		font-size: 7px;
+		bottom: 1px;
 	}
 }
