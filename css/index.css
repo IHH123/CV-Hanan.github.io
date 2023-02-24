@@ -136,17 +136,17 @@
 
 	.contact-us-phone .fa-phone {
 
-		font-size: 4px;
+		font-size: 3.5px;
 	}
 
 	.contact-us-mail .fa-envelope {
 
-		font-size: 5.5px;
+		font-size: 5px;
 	}
 
 	.contact-us-address .fa-map-marker-alt {
 
-		font-size: 4px;
+		font-size: 3.5px;
 		bottom: 12px;
 	}
 }
