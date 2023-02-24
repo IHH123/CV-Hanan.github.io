@@ -153,6 +153,6 @@
 	.contact-us-address .fa-map-marker-alt, .contact-us-address .contact-address {
 
 		font-size: 3.5px;
-		bottom: 0px;
+		top: 5px;
 	}
 }
