@@ -133,26 +133,27 @@
 	.contact-us-mail .fa-envelope, .contact-us-mail [href^="mailto:"] {
 
 		bottom: 11px;
-	}
-
-	.contact-us-phone .fa-phone, .contact-us-phone [href^="https://api.whatsapp.com"] {
-
-		bottom: 11.5px;
+		font-size: 4.5px;
 	}
 
 	.contact-us-phone .fa-phone, .contact-us-phone [href^="https://api.whatsapp.com"] {
 
 		font-size: 3.5px;
-	}
-
-	.contact-us-mail .fa-envelope, .contact-us-mail [href^="mailto:"] {
-
-		font-size: 4.5px;
+		bottom: 11.5px;
 	}
 
 	.contact-us-address .fa-map-marker-alt, .contact-us-address .contact-address {
 
 		font-size: 3.5px;
-		top: 3px;
+	}
+
+	.contact-us-address .fa-map-marker-alt {
+
+		top: 3.5px;
+	}
+
+	.contact-us-address .contact-address {
+
+		top: 2.5px;
 	}
 }
